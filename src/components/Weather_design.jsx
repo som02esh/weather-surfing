@@ -27,7 +27,7 @@ function Weather_design() {
     try{
     const APIKEY=import.meta.env.VITE_API_KEY;
     const location = await fetch(
-      ` http://api.openweathermap.org/geo/1.0/direct?q=${city},in&limit=2&appid=${APIKEY}`
+      ` https://api.openweathermap.org/geo/1.0/direct?q=${city},in&limit=2&appid=${APIKEY}`
     );
     const locationResult = await location.json();
     const lat = locationResult[0].lat;
