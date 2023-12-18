@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1115%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='23.07' cx='1271.69' cy='197.3' fill='url(%26quot%3b%23SvgjsLinearGradient1116%26quot%3b)'%3e%3c/circle%3e%3ccircle r='15.715' cx='1203.82' cy='332.13' fill='url(%26quot%3b%23SvgjsLinearGradient1117%26quot%3b)'%3e%3c/circle%3e%3ccircle r='52.685' cx='114.36' cy='466.17' fill='url(%26quot%3b%23SvgjsLinearGradient1118%26quot%3b)'%3e%3c/circle%3e%3ccircle r='40.985' cx='901.35' cy='289.66' fill='url(%26quot%3b%23SvgjsLinearGradient1119%26quot%3b)'%3e%3c/circle%3e%3ccircle r='51.29' cx='890.1' cy='47' fill='url(%26quot%3b%23SvgjsLinearGradient1120%26quot%3b)'%3e%3c/circle%3e%3ccircle r='35.095' cx='983.05' cy='208.79' fill='url(%26quot%3b%23SvgjsLinearGradient1121%26quot%3b)'%3e%3c/circle%3e%3ccircle r='49.83' cx='642.08' cy='437.48' fill='url(%26quot%3b%23SvgjsLinearGradient1122%26quot%3b)'%3e%3c/circle%3e%3ccircle r='33.745' cx='1270.89' cy='527.2' fill='url(%26quot%3b%23SvgjsLinearGradient1123%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1115'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='1225.55' y1='197.3' x2='1317.83' y2='197.3' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1116'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1172.3899999999999' y1='332.13' x2='1235.2499999999998' y2='332.13' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1117'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='8.989999999999995' y1='466.17' x2='219.73000000000002' y2='466.17' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1118'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='819.38' y1='289.66' x2='983.3199999999999' y2='289.66' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1119'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='787.52' y1='47' x2='992.68' y2='47' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1120'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 210%2c 143%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='912.8599999999999' y1='208.79' x2='1053.2399999999998' y2='208.79' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1121'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 210%2c 143%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='542.4200000000001' y1='437.48' x2='741.74' y2='437.48' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1122'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 210%2c 143%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1203.4' y1='527.2' x2='1338.38' y2='527.2' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1123'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
+  background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+.container {
+  position: relative;
+  width: 25rem;
+  height: 31.25rem;
+  background: #00000084;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 1.25rem;
+}
+.search {
+  position: relative;
+  width: 100%;
+  height: 3.43rem;
+  display: flex;
+  align-items: center;
+}
+.search input {
+  position: absolute;
+  /* top: 4px; */
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  border-radius: 10px;
+  font-size:1.375rem;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 3rem 0 2.625rem;
+}
+.search i {
+  position: absolute;
+  left: 10px;
+  /* top: 17px; */
+  font-size: 1.75rem;
+}
+
+.search input::placeholder {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.search button {
+  position: absolute;
+  right: 0;
+  width: 2.5rem;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.75rem;
+  color: #fff;
+  padding: 0 2.5rem 0 0.32rem;
+  cursor: pointer;
+}
+
+.weather-box {
+  text-align: center;
+  margin: 0.625rem 0;
+}
+.weather-box .city {
+  margin-bottom: -2rem;
+  margin-top: 1.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.weather-box .temperature {
+  position: relative;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+  margin: -1.5rem 0 0.375rem -1.2rem;
+}
+.weather-box .temperature span {
+  position: absolute;
+  font-size: 1.2rem;
+  margin-left: 0.25rem;
+}
+
+.weather-box .description {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.weather-box .visibility {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+
+.weather-details {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 0;
+  width: 100%;
+  padding: 0 1.25rem;
+  display: flex;
+}
+
+.weather-details .humidity,
+.weather-details .wind {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.weather-details .humidity {
+  justify-content: flex-start;
+  padding-left: 0.625rem;
+}
+
+.weather-details .wind {
+  justify-content: flex-end;
+  padding-right: 1.25rem;
+}
+
+.weather-details i {
+  font-size: 3.5rem;
+  margin-left: 0.625rem;
+}
+
+.weather-details span {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.weather-details p {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width:470px) {
+    .container{
+        width: 22rem;
+        padding: 1rem;
+    }
+}
