@@ -24,6 +24,7 @@ function Weather_design() {
     place:"",
   });
   const getWeather = async () => {
+    try{
     const APIKEY=import.meta.env.VITE_API_KEY;
     const location = await fetch(
       ` http://api.openweathermap.org/geo/1.0/direct?q=${city},in&limit=2&appid=${APIKEY}`
@@ -54,6 +55,10 @@ function Weather_design() {
       visibility:weatherResult.visibility/1000,
       place,
     });
+  }catch(error)
+  {
+    alert("Enter a valid city");
+  }
   };
   useEffect(() => {
     getWeather();
